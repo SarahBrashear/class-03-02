@@ -28,3 +28,9 @@ x <- read_csv(file = "~/bunmd_v2.csv",
 ))
 ```
 
+
+```{r}
+small <- x %>%
+  slice_sample(nrows  ) 
+```
+
